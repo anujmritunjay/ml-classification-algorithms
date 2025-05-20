@@ -21,18 +21,17 @@ Similar data points tend to be near each other in feature space. KNN uses this p
 
 ### Distance Metrics  
 Common ways to measure closeness between points:
+### Distance Metrics
+
 - **Euclidean Distance:**  
-  \[
-  d(p, q) = \sqrt{\sum_{i=1}^n (p_i - q_i)^2}
-  \]
+  d(p, q) = √( Σ (pᵢ - qᵢ)² )
+
 - **Manhattan Distance:**  
-  \[
-  d(p, q) = \sum_{i=1}^n |p_i - q_i|
-  \]
+  d(p, q) = Σ |pᵢ - qᵢ|
+
 - **Minkowski Distance:**  
-  \[
-  d(p, q) = \left(\sum_{i=1}^n |p_i - q_i|^m\right)^{1/m}
-  \]
+  d(p, q) = ( Σ |pᵢ - qᵢ|^m )^(1/m)
+
 
 ### Choosing k  
 - Small k → Sensitive to noise (overfitting)  
