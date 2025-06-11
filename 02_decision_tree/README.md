@@ -10,7 +10,7 @@ A Decision Tree is a supervised learning algorithm used for classification and r
 
 ---
 
-## 🧠 Core Concepts & Math
+## 🧠 Core Concepts & Maths
 
 ### 🔹 Entropy (Information Gain)
   `Entropy(S) = - Σ (p_i * log2(p_i))`  
