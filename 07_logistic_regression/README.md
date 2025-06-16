@@ -79,6 +79,4 @@ Once the model is trained, we evaluate how well it performs using:
 4. **HR Attrition Analysis** – Predict if an employee will leave the company  
 5. **MNIST Handwritten Digits** – Use Logistic Regression to classify digits (0–9) using softmax for multiclass classification  
 
----
 
-This repository helps you **understand the theory** and **build practical skills** with real-world datasets. No black boxes — everything is explained and implemented from scratch and with libraries.
